@@ -1,0 +1,4 @@
+From the above we can understand DispatcherServlet by himself should be able to instantiate these components and use them aspart of request processing
+
+The DispatcherServlet has to instantiate the ioc container prior to processing of the request and should be created only once and should use the same container for 
+processing all the requests that are coming into the application

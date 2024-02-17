@@ -1,0 +1,2 @@
+Since the entrypoint of the mvc application is DispatcherServlet, these components are being used by the DispatcherServlet only to handle and process the requests. 
+So the DispatcherServlet needs these components from the ioc container

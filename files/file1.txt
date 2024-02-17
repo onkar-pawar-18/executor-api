@@ -1,0 +1,3 @@
+What is DispatcherServlet, how to configure the DispatcherServlet within our application?
+DispatcherServlet plays the role of Front Controller in spring webmvc application, all the requests that are send to our application are received by the DispatcherServlet.
+It applies the common processing logic for each request that is received by the application and there after delegates/dispatches the requests to other mvc components to
